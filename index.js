@@ -18,7 +18,9 @@ window.addEventListener("DOMContentLoaded", async() => {
         <h3
         class="h5"
         >${task.title}<h3>
-        <p>${task.description}</p>
+        <p
+        class="salto-de-linea"
+        >${task.description}</p>
         <div>
         
         <button class="btn-delete btn btn-primary" data-id="${doc.id}">Delete</button>
